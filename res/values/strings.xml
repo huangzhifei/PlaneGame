@@ -4,5 +4,10 @@
     <string name="app_name">PlaneGame</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="show_text1">煞笔别碰我!</string>
+	<string name="show_text2">在碰我就叫了!</string>
+	<string name="show_text3">吖咩爹，吖咩爹!</string>
+	<string name="show_text4">不要停，不要停!</string>
+	<string name="show_text5">啊啊啊，继续呀!</string>
+	<string name="show_text6">老三是煞笔!</string>
 </resources>
