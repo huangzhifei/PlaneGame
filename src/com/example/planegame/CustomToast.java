@@ -48,8 +48,7 @@ public class CustomToast {
 	public static void showToast(Context context, String text, int duration)  
     {  
 		mHandler.removeCallbacks(mRunnable);  
-		index = index++ % textArry.length;
-		text += textArry[index];
+		text += context.getString(textArry[index++ % textArry.length]);
         if( mToast != null )  
         {  
         	mToast.setText(text);  
@@ -60,8 +59,8 @@ public class CustomToast {
         }  
         mHandler.postDelayed(mRunnable, duration);  
         mToast.show();  
-    }  
-      
+    }
+	
     public static void showToast(Context context, int resId, int duration)   
     {  
         showToast(context, context.getResources().getString(resId), duration);  
